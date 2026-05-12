@@ -1,5 +1,5 @@
 import { Moon, Sun, Menu, X } from 'lucide-react';
-import { useTheme } from '../contexts/ThemeContext';
+import { useTheme } from '../contexts/ThemeContext.jsx';
 import { useState } from 'react';
 
 export function Navigation() {

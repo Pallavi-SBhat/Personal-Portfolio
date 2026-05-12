@@ -1,4 +1,5 @@
-import { ExternalLink, Github } from 'lucide-react';
+import { GithubIcon} from './SocialIcons';
+import { ExternalLink } from 'lucide-react';
 
 export function Projects() {
   const projects = [
@@ -107,7 +108,7 @@ export function Projects() {
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    <Github size={18} />
+                    <GithubIcon size={18} />
                     <span>Code</span>
                   </a>
                   <a

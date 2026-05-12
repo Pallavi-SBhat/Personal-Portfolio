@@ -1,5 +1,5 @@
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
-
+import {  Mail, Heart } from 'lucide-react';
+import { GithubIcon, LinkedinIcon } from './SocialIcons';
 export function Footer() {
   return (
     <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
@@ -65,7 +65,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                <Github size={24} />
+                <GithubIcon size={24} />
               </a>
               <a
                 href="https://linkedin.com"
@@ -73,7 +73,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                <Linkedin size={24} />
+                <LinkedinIcon size={24} />
               </a>
               <a
                 href="mailto:your.email@example.com"

@@ -60,7 +60,7 @@ export function Footer() {
             </h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Pallavi-SBhat"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -68,7 +68,7 @@ export function Footer() {
                 <GithubIcon size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/pallavisbhat/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -76,7 +76,7 @@ export function Footer() {
                 <LinkedinIcon size={24} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:bhatpallavi.24@gmail.com"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
                 <Mail size={24} />
